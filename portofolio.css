@@ -1,25 +1,48 @@
+#name{
+  color:#EED6D6;
+   font-family: "Momo Trust Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   font-size: large;
+}
+
 .container {
   display: flex;
   flex-direction: row;
   justify-content: end; 
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-left: 1100px;
-  margin-top: 10px;
-      
+  align-items: flex-start;
+  font-family: "Momo Trust Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .container2 {
       display: flex;
       flex-direction: column;
       text-align: center;
-      margin-right: 800px;
+      margin-right: 700px;
+      margin-top:100px;
       color: white;
       font-family: "Momo Trust Sans", sans-serif;
       font-optical-sizing: auto;
-      font-weight: weight;
+      font-weight: 600;
       font-style: normal;
-      font-size: 40px;
+      font-size: 50px;
+      line-height: 1.1;
+     
+}
 
+.squishedText {
+  line-height: 1;       
+  letter-spacing: -0.5px; 
+  font-size: 50px;    
+  margin: 0;          
+  max-width: 500px; 
+  margin-left: 50px;
 }
 
 .images {
@@ -29,6 +52,7 @@
   align-items: center;
   gap: 15px;
   margin-top: 10px; 
+  margin-right: 600px;
 }
 
 .images img {
@@ -47,40 +71,64 @@
 
 a {
   text-decoration: none;
-  color:white;
+  color: white;
   display: flex;
   justify-content: end;
   font-family: "Momo Trust Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  
 }
+
 
 #contact {
   background-color: #EED6D6;
-  color:black;
-  padding: 14px 20px;
-  text-align: center;
+  color: black !important;
+  font-family: "Momo Trust Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
   text-decoration: none;
-  display: inline-block;
-  border-radius: 8px;
+  text-align: center;
+  
 }
 
 body {
-    background: linear-gradient(to right, #3f191e, #62242F);
+    background: linear-gradient(to right, #33161d, #372a2a);
   margin: 0; 
   padding: 0;
 }
 
-#werk{
+a#werk {
   background-color: #EED6D6;
-  color:black;
-  
-  text-align: center;
+  color: black !important;
+  font-family: "Momo Trust Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
   text-decoration: none;
-  display: inline-block;
+  text-align: center;
+  
+  padding: 8px 14px;    
   border-radius: 8px;
-  margin-right: 100px;
+  border: none;
+  display: inline-block; 
+  width: auto;         
+  max-width: max-content;
+  min-width: 0;         
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  margin-left: 250px;
+  margin-right: auto;
+  margin-top: 30px;
 }
+
+.right-image {
+  position: absolute;      
+  top: 150px;              
+  right: 20px;  
+  width: 600px;            
+  height: auto;             
+  border-radius: 8px;      
+}
+
+
+
+
+
 
