@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end; 
+  justify-content: space-evenly;
+  margin-left: 1100px;
+  margin-top: 10px;
+      
+}
+
+.container2 {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-right: 800px;
+      color: white;
+      font-family: "Momo Trust Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      font-size: 40px;
+
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px; 
+}
+
+.images img {
+  width: 50px !important;  
+  height: 50px !important; 
+  max-width: 50px !important;
+  max-height: 50px !important;
+  object-fit: contain;      
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.images img:hover {
+  transform: scale(1.2); 
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  display: flex;
+  justify-content: end;
+  font-family: "Momo Trust Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+}
+
+#contact {
+  background-color: #EED6D6;
+  color: black;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+body {
+    background: linear-gradient(to right, #3f191e, #62242F);
+  margin: 0; 
+  padding: 0;
+}
+
+#werk{
+  background-color: #EED6D6;
+  color: black;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  margin-right: 100px;
+}
+
