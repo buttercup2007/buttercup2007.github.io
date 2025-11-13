@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(to right, #33161d, #372a2a);
+    margin: 0;
+    padding-top: 80px; 
+    font-family: 'Roboto', sans-serif;
+    color: #1b1616;
+    text-align: center;
+  }
+  
+  .navbar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ebebeb;
+    font-family: "Momo Trust Sans", sans-serif;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ebebeb;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #EED6D6;
+    transform: scale(1.05);
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-card {
+    background-color: #ffffff;
+    color: #1b1616;
+    border-radius: 12px;
+    padding: 30px 20px;
+    width: 250px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-card h2 {
+    margin-bottom: 10px;
+    color: #33161d;
+  }
+  
+  .contact-card p {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+  }
+  
+  @media (max-width: 900px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-card {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
