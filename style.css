@@ -1,0 +1,141 @@
+@media (max-width: 600px) {
+    .links {
+        flex-direction: column;
+        align-items: flex-end;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding-right: 20px;
+    background: linear-gradient(to left, #cb9a74, #f0ece9)
+}
+
+.name{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: rgb(78, 57, 17);
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
+.right-container{
+    padding-right: 20px;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: clamp(1rem, 2rem + 5vw, 3rem);
+    font-family: poppins, sans-serif;
+}
+
+h2 {
+    font-size: clamp(1.5rem, 1.25rem + 8vw, 2.6rem);
+    font-family: poppins, sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.links {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: space-between;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    gap: 50px; 
+}
+
+.links-container {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.links a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: rgb(120, 88, 15);
+}
+
+.languadge{
+    text-align: right;
+}
+
+.text{
+    text-align: right;
+}
+
+.Images{
+    text-align: right;
+}
+
+.languadge{
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    gap: 20px; 
+}
+
+.btn {
+    background: linear-gradient(135deg, #eb9578d0, #bc6849eb);
+    border: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cv {
+    background: #a17639; 
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-cv:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.CV{
+  position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+img {
+    color:rgb(255, 255, 255);
+    width: 100%;
+
+}
