@@ -24,6 +24,17 @@ body{
     background: linear-gradient(to left, #cb9a74, #f0ece9)
 }
 
+.scroll-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
+
+.scroll-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .content, .about-me, .hobby-container, .art-container {
     margin-bottom: 50px;
 }
