@@ -71,14 +71,14 @@ p{
 }
 
 .links {
-    position: fixed;
-    top: 20px;
-    right: 20px;
+    top: auto;
+    right: auto;
     display: flex;
-    align-items: space-between;
+    align-items: center;
     font-family: 'poppins', sans-serif;
     font-size: 20px;
-    gap: 50px; 
+    gap: 50px;
+    margin-bottom: 20px; 
 }
 
 .links-container {
